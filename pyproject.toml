@@ -12,11 +12,8 @@ dependencies = [
 [project.scripts]
 serve = "audio_transcription_service.main:main"
 
-[build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"
-
 [tool.uv]
+package = true
 dev-dependencies = [
     "pytest>=8.0.0",
     "black>=24.0.0",
