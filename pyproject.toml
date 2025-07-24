@@ -1,5 +1,5 @@
 [project]
-name = "targetai-task"
+name = "audio-transcription-service"
 version = "1.0.0"
 description = "🎤 WebSocket Audio Transcription Service with FastAPI + Multiprocessing + IPC"
 authors = [{name = "Dmitriy Shubenok", email = "dshubenok93@gmail.com"}]
@@ -10,7 +10,7 @@ dependencies = [
 ]
 
 [project.scripts]
-serve = "targetai_task.main:main"
+serve = "audio_transcription_service.main:main"
 
 [build-system]
 requires = ["hatchling"]
