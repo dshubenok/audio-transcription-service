@@ -5,7 +5,10 @@ WebSocket сервис для обработки аудио с FastAPI + Multipr
 ## Быстрый старт
 
 ```bash
-# Установка
+# Установка uv (если не установлен)
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
+# Установка зависимостей
 uv sync
 
 # Запуск сервера
